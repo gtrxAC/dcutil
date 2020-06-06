@@ -23,20 +23,20 @@ What dcutil can't do:
 ## Example
 * `_color black`
 * `_new`
-![Creates a new image.](images/new.png)
+* ![Creates a new image.](images/new.png)
 
 * `_color white`
 * `_rect 2 2 46 46 4`
-![Draws a 46×46 rectangle starting at (2,2) with 4px outline.](images/rect.png)
+* ![Draws a 46×46 rectangle starting at (2,2) with 4px outline.](images/rect.png)
 
 * `_color red`
 * `_circle 50 0 50 50`
-![Draws a 50x50 diameter circle starting at (50,0).](images/circle.png)
+* ![Draws a 50x50 diameter circle starting at (50,0).](images/circle.png)
 
 * `_color darkslateblue`
 * `_text 10 60 14 monospace`
 * `dcutil`
-![Writes "dcutil" starting at (10,60) with 14px monospace font.](images/text.png)
+* ![Writes "dcutil" starting at (10,60) with 14px monospace font.](images/text.png)
 
 
 ## Self-hosting
