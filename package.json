@@ -1,0 +1,31 @@
+{
+  "name": "dcutil",
+  "version": "1.0.0",
+  "description": "A simple image editor bot for Discord",
+  "main": "index.js",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "discord.js": "^12.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtrxAC/dcutil.git"
+  },
+  "keywords": [
+    "discord",
+    "image",
+    "editor",
+    "bot",
+    "canvas"
+  ],
+  "author": "gtrxAC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gtrxAC/dcutil/issues"
+  },
+  "homepage": "https://github.com/gtrxAC/dcutil#readme"
+}
