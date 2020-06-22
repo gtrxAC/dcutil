@@ -1,5 +1,6 @@
 const Canvas = require('canvas');
 const config = require('../config.json');
+const tools = require(`../tools`);
 
 module.exports = {
 	name: 'paste',
