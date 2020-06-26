@@ -10,8 +10,7 @@ module.exports = {
 	cooldown: 5000,
 	async run(message, args, db) {
 		// Get the ruler precision from the arguments or use the default value.
-		args[0] = Number(args[0]);
-		const [rulerPrecision = 50] = args;
+		const rulerPrecision = Number(args[0]) || 50;
 
 		// Get the image.
 		const link = await tools.fetchImage(message);
