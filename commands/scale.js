@@ -7,7 +7,7 @@ module.exports = {
 	aliases: ['resize', 'size'],
 	description: "Resize the image.",
 	usage: '<width> [height] [noSmoothing]',
-	minArgs: 2,
+	minArgs: 1,
 	async run(message, args, db) {
 		// Convert the arguments into numbers.
 		args.forEach((arg, index) => args[index] = Number(arg));
