@@ -25,7 +25,7 @@ module.exports = {
 
 		// Send the image in jpeg format.
 		const buffer = canvas.toBuffer('image/jpeg', {quality: quality / 100});
-		const attachment = new Discord.MessageAttachment(buffer, `convert.jpeg`);
+		const attachment = new Discord.MessageAttachment(buffer, `convert.jpg`);
 		return {files: [attachment]};
 	}
 }
