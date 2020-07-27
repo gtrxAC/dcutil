@@ -75,5 +75,6 @@ client.on('message', async message => {
 	log('ready!');
 })
 
-// Log in with the token from config.json.
-.login(config.token);
+// Log in using the token file.
+const token = fs.readFileSync('token.txt').toString();
+client.login(token);

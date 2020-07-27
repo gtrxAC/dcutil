@@ -42,24 +42,5 @@ What dcutil can't do:
 ## Self-hosting
 1. Clone the repository.
 2. Install the dependencies. `npm i discord.js canvas`
-3. Create a config.json in the root directory. Here you can change various variables of the bot, but the most important are the token and prefix.
-```json
-{
-	"token": "bot token here",
-	"prefix": "prefix here, default is _",
-	"successEmoji": "✅",
-	"errorEmoji": "❌",
-	"editEmoji": "✏",
-	"helpEmoji": "❔",
-	"linkEmoji": "🔗",
-	"embedSuccessColor": 7844437,
-	"embedFailColor": 14495300,
-	"embedEditColor": 16763981,
-	"embedDefaultColor": 8952230,
-	"imageLoaderFetchLimit": 25,
-	"undoFetchLimit": 10,
-	"safeLimitX": 4096,
-	"safeLimitY": 4096
-}
-```
+3. Create a token.txt file in the root directory and paste your bot token there.
 4. Run the bot. `node index.js`

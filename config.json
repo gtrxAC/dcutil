@@ -1,0 +1,16 @@
+{
+	"prefix": "_",
+	"successEmoji": "✅",
+	"errorEmoji": "❌",
+	"editEmoji": "✏",
+	"helpEmoji": "❔",
+	"linkEmoji": "🔗",
+	"embedSuccessColor": 7844437,
+	"embedFailColor": 14495300,
+	"embedEditColor": 16763981,
+	"embedDefaultColor": 8952230,
+	"imageLoaderFetchLimit": 25,
+	"undoFetchLimit": 10,
+	"safeLimitX": 4096,
+	"safeLimitY": 4096
+}
