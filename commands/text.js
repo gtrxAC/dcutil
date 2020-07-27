@@ -8,9 +8,8 @@ module.exports = {
 	description: "Write text to the image.",
 	usage: '<x> <y> <size> [font]',
 	minArgs: 3,
-	async run(message, args, db) {
+	async run(message, [x, y, size, ...font], db) {
 		// Extract the metrics from the arguments.
-		let [x, y, size, ...font] = args;
 		if (font === undefined) font = 'sans-serif';
 		font = font.join(' ');
 		let text;
